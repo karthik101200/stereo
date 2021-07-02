@@ -79,7 +79,7 @@ with open('output.ply', 'w') as f:
 	f.write(ply_header %dict(vert_num = len(points)))
 	np.savetxt(f, points, '%f %f %f %d %d %d')
 
-print("DONE")
+
 
 
 cv2.waitKey(0)
